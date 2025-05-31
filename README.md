@@ -1,7 +1,7 @@
-/////////////////////////////////////////////////////// face_identity_verification usgin CNN ////////////////////////////////////////////////////////////////////////////////
+ face_identity_verification usgin CNN
 This is a face identity verification system using a Convolutional Neural Network (CNN) built with TensorFlow/Keras. It verifies whether a given input image matches any of the faces stored in a dataset. If a match is found (based on cosine similarity of feature vectors), the person's details are displayed and spoken using text-to-speech (TTS).
 
-//////////////////////////////////////////////// Features ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ Features 
 Train a CNN model to classify known faces.
 
 Extract feature vectors from the trained model.
@@ -14,7 +14,7 @@ Save the trained model for reuse without retraining.
 
 Handles missing images and missing trained model files gracefully.
 
-/////////////////////////////////////////////////////////////////////// Requirements ////////////////////////////////////////////////////////////////////////////////////////
+Requirement
 Python 3.7+
 
 The following libraries:
